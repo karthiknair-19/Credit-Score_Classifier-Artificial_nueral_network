@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit score</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="icon" href="static/icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="{{url_for('home')}}" class="logo"> Credit Score Checker</a>
+        <nav class="navbar">
+            <a href="{{url_for('home')}}"> Home </a>
+            <a href="{{url_for('predict')}}"> Predict </a>
+            <a href="{{url_for('about')}}"> About Us </a>
+        </nav>
+        <div class="social-media">
+            <a href="https://github.com/Captureboy"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/manoj-kumar-s-57188922a/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="static/map.png" alt="map-img" class="map-img">
+                    <div class="row">
+                        <img src="static/chip.png" alt="chip" width="60px">
+                        <img src="static/visa.png" alt="visa" width="80px">
+                    </div>
+                    <div class="card-head">
+                        <p> Welcome to credit score checker </p>
+                    </div>
+                    <div class="card-subhead">
+                        <p>Click the below button to the check your credit score wheather it's great or greater !!!</p>
+                        <a href="{{url_for('predict')}}" class="button"> <i class='bx bx-credit-card'></i> Click Here </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit score</title>
+    <link rel="stylesheet" href="static/style3.css">
+    <link rel="icon" href="static/icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="{{url_for('home')}}" class="logo">  Credit Score Checker</a>
+        <nav class="navbar">
+            <a href="{{url_for('home')}}"> Home </a>
+            <a href="{{url_for('predict')}}"> Predict </a>
+            <a href="{{url_for('about')}}"> About Us </a>
+        </nav>
+        <div class="social-media">
+            <a href="https://github.com/Captureboy"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/manoj-kumar-s-57188922a/"><i class='bx bxl-linkedin'></i></a>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="static/map.png" alt="map-img" class="map-img">
+                    <div class="row">
+                        <img src="static/chip.png" alt="chip" width="60px">
+                        <img src="static/visa.png" alt="visa" width="80px">
+                    </div> 
+                    <div class="text">
+                        <h3>Congratulations !!!</h3>
+                        <h4> Your credit score is Good <i class='bx bx-smile'></i></h4>
+                        <p>How to maintain your credit score?</p>
+                        <ul class="texts">
+                            <li> <strong>Pay Bills on Time:</strong> Timely payments of your credit card bills, loans, and other debts are crucial. Late or missed payments can lower your credit score significantly. Set up reminders or automatic payments to ensure you pay on time.</li>
+                            <li> <strong>Reduce Credit Card Balances:</strong> High credit card balances relative to your credit limits can hurt your credit score. Strive to keep your credit utilization ratio below 30% by paying down your credit card debt. Lower balances can demonstrate responsible credit management.</li>
+                            <li> <strong>Maintain a Mix of Credit Types:</strong> Lenders prefer to see that you can handle various types of credit responsibly. This includes credit cards, installment loans (e.g., auto loans), and mortgages. However, don't open new accounts just for variety; it should align with your financial goals and needs.</li>
+                            <li> <strong>Monitor Your Credit Report:</strong> Regularly check your credit reports from all three major credit bureaus (Equifax, Experian, TransUnion) for errors or signs of identity theft. Correct any inaccuracies promptly to ensure your credit report accurately reflects your credit history.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

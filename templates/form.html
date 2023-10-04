@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit score</title>
+    <link rel="stylesheet" href="static/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <header class="header">
+        <a href="{{url_for('home')}}" class="logo"> Credit Score Checker</a>
+        <nav class="navbar">
+            <a href="{{url_for('home')}}"> Home </a>
+            <a href="{{url_for('predict')}}"> Predict </a>
+            <a href="{{url_for('about')}}"> About Us </a>
+        </nav>
+        <div class="social-media">
+            <a href="https://github.com/Captureboy"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/manoj-kumar-s-57188922a/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="back">
+                    <img src="static/map.png" alt="map-img" class="map-img">
+                    <div class="row">
+                        <img src="static/chip.png" alt="chip" width="60px">
+                        <img src="static/visa.png" alt="visa" width="80px">
+                    </div>
+                    <form id="survey-form" action='{{url_for('predict')}}' method='POST'>
+                        <label for="question" class="question">What is your Outstanding Debt?</label>
+                        <input name="Outstanding Debt" type="number" class="answer">
+                        </select>
+                        <label for="question" class="question">What is your Annual Income?</label>
+                        <input name="Annual Income" type="number" class="answer">
+                        <label for="question" class="question">What is your Monthly In-hand?</label>
+                        <input name="Monthly In-hand" type="number" class="answer">
+                        <label for="question" class="question">What is your Interest Rate?</label>
+                        <input name="Interest Rate" type="number" class="answer">
+                        <label for="question" class="question">What is your Credit Mix?</label>
+                        <select name="Credit Mix" id="dropdown">
+                            <option value="Good">Good</option>
+                            <option value="Bad">Bad</option>
+                            <option value="Standard">Standard</option>
+                        </select>
+                        <button class="submit"> Submit </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
