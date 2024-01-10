@@ -52,7 +52,7 @@
 <h2 align="center">Libraries Used</h2>
 
 <p align="center">
-  <img alt="TensorFlow Logo" src="https://www.gstatic.com/webp/gallery/2.jpg" height="50" />
+  <img alt="TensorFlow Logo" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" height="50" />
   <img alt="Keras Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/512px-Keras_logo.svg.png" height="50" />
   <!-- Add more libraries as needed -->
 </p>
