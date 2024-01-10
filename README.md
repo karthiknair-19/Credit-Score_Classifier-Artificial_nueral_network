@@ -54,6 +54,9 @@
 <p align="center">
   <img alt="TensorFlow Logo" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" height="50" />
   <img alt="Keras Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/512px-Keras_logo.svg.png" height="50" />
+   <img alt="Pandas Logo" src="https://pandas.pydata.org/static/img/pandas.svg" height="50" />
+  <img alt="NumPy Logo" src="https://numpy.org/images/logos/numpy.svg" height="50" />
+  <img alt="scikit-learn Logo" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" height="50" />
   <!-- Add more libraries as needed -->
 </p>
 
