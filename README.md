@@ -22,8 +22,8 @@
 1. Clone the repository:
 
    ```bash
-   $ git clone https://github.com/yourusername/credit-approval-project.git
-   $ cd credit-approval-project
+   $ git clone https://github.com/karthiknair-19/Credit-Score_Classifier-Artificial_nueral_network.git
+   $ cd Credit-Score_Classifier-Artificial_nueral_network
    ```
 
 2. Create a virtual environment (optional but recommended):
