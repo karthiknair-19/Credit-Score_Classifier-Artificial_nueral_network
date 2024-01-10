@@ -4,7 +4,7 @@
 
 <!-- Project Description -->
 <p align="center">
-  A project that employs artificial neural networks to predict credit approval status for customers. The system utilizes TensorFlow and Keras libraries, achieving an accuracy of 86 percent.
+  A project that employs artificial neural networks to predict credit approval score for customers. The system utilizes TensorFlow and Keras libraries, achieving an accuracy of 86 percent.
 </p>
 
 <!-- Project Features -->
