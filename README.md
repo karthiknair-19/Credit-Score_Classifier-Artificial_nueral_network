@@ -7,6 +7,10 @@
   A project that employs artificial neural networks to predict credit approval score for customers. The system utilizes TensorFlow and Keras libraries, achieving an accuracy of 86 percent.
 </p>
 
+<p align="center">
+  <img src="https://github.com/karthiknair-19/Credit-Score_Classifier-Artificial_nueral_network/assets/124065232/006a6a28-55a9-4cda-89f7-4ac9961862c2" alt="GIF Showcase" width="80%">
+</p>
+
 <!-- Project Features -->
 <h2 align="center">Features</h2>
 
